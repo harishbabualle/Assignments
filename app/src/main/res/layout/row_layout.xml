@@ -26,7 +26,8 @@
                 android:gravity="center"
 
                 android:padding="10dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/movie_rating"
@@ -48,13 +49,17 @@
 
 
         </LinearLayout>
+
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_marginTop="10dp"
             android:layout_width="200dp"
             android:layout_height="120dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_background"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:srcCompat="@mipmap/ic_launcher"
             tools:ignore="VectorDrawableCompat" />
     </LinearLayout>
 </LinearLayout>

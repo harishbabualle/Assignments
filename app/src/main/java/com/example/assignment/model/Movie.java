@@ -5,6 +5,7 @@ public class Movie {
     String movierating;
     String moviedescription;
 
+
     public Movie(String movietitle, String movierating, String moviedescription) {
         this.movietitle = movietitle;
         this.movierating = movierating;

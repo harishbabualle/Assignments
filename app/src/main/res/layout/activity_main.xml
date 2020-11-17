@@ -14,13 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="38dp"
         android:layout_marginTop="10dp"
+        android:background="#DFECE3"
         android:gravity="center"
-        android:text="Movies" />
+        android:text="Movies"
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="#97F4DF" />
 
 
 </LinearLayout>
